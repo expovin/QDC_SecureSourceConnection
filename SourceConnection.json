@@ -1,0 +1,28 @@
+{
+    "Connections" : {
+        "PERSONAL_MSSQL" : {
+            "qConnectionString" : "CUSTOM CONNECT TO \"provider=QvOdbcConnectorPackage.exe;driver=mssql;host=172.20.16.185;port=1433;Encrypt=false;TrustServerCertificate=false;Min_TLS=1.0;Trusted_Connection=false;Use_NTLM=false;Integrated Security=false;EnableQuotedIdentifiers=1;ReturnSpecificTypeAsOdbcType=yes;\"",
+            "qType": "QvOdbcConnectorPackage.exe"
+        }
+    },
+
+    "Users" : {
+        "podium" : {
+            "userName" : "sa",
+            "password" : "supersecret"
+        },
+        "ves" : {
+            "userName" : "vincenzo",
+            "password" : "Qlik1234"
+        },
+        "bqf" : {
+            "userName" : "jonas",
+            "password" : "Qlik1234"
+        }        
+    },
+
+    "DBs"  :{
+        "ADW2017" : "AdventureWorksDW2017.dbo",
+        "NORTHWIND" :"Northwind.dbo"
+    }
+}
