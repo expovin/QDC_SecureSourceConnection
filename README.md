@@ -13,3 +13,8 @@ In this case a new Source connection will be created only for the Qlik Sense pub
 
 ## Qlik Settings
 In order to provide a more secure environment it is suggested to remove any shared source connection with hight user provileges
+
+### Caveats
+This scripts are tested with the following versions:
+  Qlik sense Feb 2020
+  Qlik Catalog Feb 2020
